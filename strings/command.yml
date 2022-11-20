@@ -11,13 +11,13 @@
 # Commands in Every Language
 
 # Bot Commands
-PING_COMMAND : ["ping"]
+PING_COMMAND : ["mping"]
 START_COMMAND : ["start"]
-HELP_COMMAND : ["help"]
+HELP_COMMAND : ["mhelp"]
 SETTINGS_COMMAND : ["settings", "setting"]
 RELOAD_COMMAND : ["admincache", "reload"]
 GSTATS_COMMAND : ["gstats"]
-STATS_COMMAND : ["stats"]
+STATS_COMMAND : ["mstats"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
@@ -55,12 +55,12 @@ RESTART_COMMAND : ["restart"]
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["addsudo"]
-DELSUDO_COMMAND : ["delsudo"]
-SUDOUSERS_COMMAND : ["sudolist"]
+ADDSUDO_COMMAND : ["maddsudo"]
+DELSUDO_COMMAND : ["mdelsudo"]
+SUDOUSERS_COMMAND : ["msudolist"]
 
 #Broadcast 
-BROADCAST_COMMAND : ["broadcast"]
+BROADCAST_COMMAND : ["mbroadcast"]
 
 #Blacklist chat
 BLACKLISTCHAT_COMMAND : ["blacklistchat"]
@@ -86,7 +86,7 @@ VARS_COMMAND : ["vars", "config"]
 
 #Basic Bot Commands
 UPDATE_COMMAND : ["update"]
-REBOOT_COMMAND : ["reboot"]
+REBOOT_COMMAND : ["mreboot"]
 AUTOEND_COMMAND : ["autoend"]
 
 #Private Bot Mode
@@ -107,6 +107,6 @@ ACTIVEVC_COMMAND : ["activevoice"]
 ACTIVEVIDEO_COMMAND : ["activevideo"]
 
 #Gban Commands
-GBAN_COMMAND : ["gban"]
-UNGBAN_COMMAND : ["ungban"]
-GBANNED_COMMAND : ["gbannedusers"]
+GBAN_COMMAND : ["mgban"]
+UNGBAN_COMMAND : ["mungban"]
+GBANNED_COMMAND : ["mgbannedusers"]
